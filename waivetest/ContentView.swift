@@ -3,7 +3,7 @@ import CoreHaptics
 
 struct ContentView: View {
     
-    // Stores the Core Haptics engine that powers vibration feedback
+    // Stores the Core Haptics engine that powers vibration feedback ur mom
     @State private var engine: CHHapticEngine?
     
     // Stores the haptic player used to start and stop the vibration pattern
