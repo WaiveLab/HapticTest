@@ -27,6 +27,7 @@ struct ContentView: View {
                 Rectangle()
                     .fill(Color.black)
                     .frame(width: 25)
+                    .cornerRadius(20)
                     .position(
                         x: geometry.size.width / 2,
                         y: geometry.size.height / 2
