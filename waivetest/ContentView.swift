@@ -24,7 +24,7 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 
                 // Draws a thick vertical black line in the center of the screen
-                Rectangle()
+                RoundedRectangle(cornerRadius: 25)
                     .fill(Color.black)
                     .frame(width: 25)
                     .position(
