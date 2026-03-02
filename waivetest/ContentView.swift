@@ -20,7 +20,9 @@ struct ContentView: View {
             ZStack {
                 
                 // White background that fills the entire screen
-                Color.white
+                Image("maps")
+                    .resizable()
+                    .scaledToFit()
                     .ignoresSafeArea()
                 
                 // Draws a thick vertical black line in the center of the screen
