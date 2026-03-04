@@ -18,7 +18,6 @@ struct ContentView: View {
             
             // ZStack layers views on top of each other
             ZStack {
-                
                 // White background that fills the entire screen
                 Image("maps")
                     .resizable()
@@ -27,7 +26,7 @@ struct ContentView: View {
                 
                 // Draws a thick vertical black line in the center of the screen
                 RoundedRectangle(cornerRadius: 25)
-                    .fill(Color.black)
+                    .fill(isTouchingLine ? Color.green : Color.gray)
                     .frame(width: 25)
                     .cornerRadius(20)
                     .position(
